@@ -15,3 +15,12 @@ Los autores de este experimento fueron:
 Fernando Buero Trebino
 
 Oscar Guindzberg
+
+Screenshots:
+
+![](/screenshots/screenshot1.png?raw=true "")
+![](/screenshots/screenshot2.png?raw=true "")
+![](/screenshots/screenshot3.png?raw=true "")
+![](/screenshots/screenshot4.png?raw=true "")
+![](/screenshots/screenshot5.png?raw=true "")
+![](/screenshots/screenshot6.png?raw=true "")
