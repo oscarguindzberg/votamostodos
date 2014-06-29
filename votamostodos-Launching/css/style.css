@@ -1,0 +1,317 @@
+@import url(reset.css);
+@import url(font-face.css);
+
+/* SHADOWBOX */
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{padding-left:34px;display:inline-block;background-image: url(../img/loading.gif);background-repeat: no-repeat;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{ position: absolute;top: 0;right: 0;width: 100%;margin-top: -25px;}
+#sb-title,#sb-title-inner{height:26px;line-height:26px;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:0px;line-height:0px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(../img/close.png); position: absolute; top: 8px; right: 0; width:15px; height:15px;} 
+#sb-nav-next{background-image:url(../img/next.png);}
+#sb-nav-previous{background-image:url(../img/previous.png);}
+#sb-nav-play{background-image:url(../img/play.png);}
+#sb-nav-pause{background-image:url(../img/pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+/* END SHADOWBOX */
+
+body{
+	background: url(../img/fondoBody.jpg) repeat;
+	font-family: "Futuram", Arial, Helvetica, sans-serif;
+}
+
+#wrap{
+	width: 1000px;
+	display: block;
+	margin: 30px auto;
+	background-color: #FFF;
+	float: left;
+	height: auto;
+	position:absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#header {
+	height: 180px;
+	width: 100%;
+	float: left;
+}
+
+#header h1 {
+	float: left;
+	width: 314px;
+	height: 140px;
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px 30px;	
+	text-indent: -9999px;
+}
+
+#menu {
+	float: right;
+	height: 79px;
+	background-image: url(../img/.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-left: 52px;
+	font-family: "Futuram", Arial, Helvetica, sans-serif;
+	width: 525px;
+}
+
+.logos-redes-sociales {
+	float: right;
+	height: 40px;
+	width: 92px;
+	padding-left: 300px;
+	margin-top: 35px;
+}
+
+#menu ul {
+	margin-top: 20px;
+
+}
+
+#menu ul li {
+	float: right;
+	width: auto;
+	font-size: 18px;
+	padding-left: 3px;
+	margin-right: 25px;
+	margin-left: 15px;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+#menu ul li #selected {
+	color: #666;
+}
+
+#menu ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #507fb4;
+}
+
+#contenido {
+	height: auto;
+	width: 100%;
+	float: left;
+}
+
+#footer {
+	height: 93px;
+	width: 100%;
+	float: left;
+	background-color: #507fb4;
+	font-family: "Futuram", Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+.textoFooter {
+	float: left;
+	line-height: 93px;
+	font-size: 11px;
+	margin-left: 29px;
+}
+
+.textoFooterCen {
+	float: left;
+	text-align: center;
+	line-height: 93px;
+	font-size: 11px;
+	width: 400px;
+	padding-left: 30px;
+	padding-top: 11px;
+}
+
+.textoFooterDer {
+	float: right;
+	line-height: 93px;
+	font-size: 11px;
+	margin-right: 29px;
+}
+
+
+#footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+#slideHome {
+	float: left;
+	width: 100%;
+	height: 600px;
+}
+
+#slideHome h3 {
+	width: 100%;
+	height: 49px;
+	text-align: center;
+	background-image: url(../img/fondoH3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+
+
+#buscador {
+	float: left;
+	width: 100%;
+}
+
+#buscador h3 {
+	float: left;
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+#buscador .campoBuscar {
+	float: left;
+	width: 562px;
+	margin-left: 30px;
+	margin-top: 5px;
+	height: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-family: "Futuram", Arial, Helvetica, sans-serif;
+}
+
+#buscador .botonBuscar {
+	float: left;
+	background-image: url(../img/fondoBtnBuscar.jpg);
+	height: 35px;
+	width: 365px;
+	margin-top: 5px;
+	margin-left: 10px;
+	border: none;
+	color: #FFF;
+	font-family: "Futuram", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	cursor: pointer;	
+}
+
+#votarRapido {
+	float: left;
+	height: 116px;
+	margin-left: 7px;
+	margin-top: 7px;
+}
+
+.sectorBlanco {
+	width: 252px;	
+}
+
+.sectorGris {
+	width: 136px;	
+}
+
+.tituloLeyRapido {
+	padding: 10px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	float: left;
+	height: 87px;
+	font-size: 12px;
+}
+
+.popularidadLeyRapido {
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	float: left;
+	height: 16px;
+	font-size: 10px;
+	color: #069;
+}
+
+.votoRapidoPositivo {
+	float: left;
+	width: 50px;
+	height: 100px;
+}
+
+.votoRapidoPositivo img{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.votoRapidoNegativo {
+	float: left;
+	width: 70px;
+	height: 100px;	
+}
+
+.votoRapidoNegativo p{
+	margin-top: 25px;
+}
+
+
+
+#Noticias {
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+
+.textoPrezzi {
+	float: left;
+	height: 25px;
+	width: 750px;
+	text-align: center;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.textoPrezzi a{
+	color: #666;
+	text-decoration: none;
+}
+
+.textoPrezzi a:hover{
+	text-decoration: underline;
+}
+
+#Noticias h3{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.prezi-player {
+	float: left;
+	width: 750px;
+	height: 450px;
+	margin-left: 130px;
+	margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+@font-face { 
+   font-family: Futuram;
+   src: url('../fuentes/Futuram.eot') format('truetype');
+    src: url('../fuentes/Futuram.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/Futuram.woff') format('woff'),
+         url('../fuentes/Futuram.ttf') format('truetype'),
+         url('../fuentes/Futuram.svg#Futuram') format('svg')  ; 
+ }
